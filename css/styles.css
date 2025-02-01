@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: aqua;
+    text-align: center;
+    
+    
+    
+    
+    
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: bold;}
+
+    #gallery img {
+    width: 100%; 
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+#gallery li {
+    display: block;
+    margin: 15px;
+    border: 3px solid #333;
+    overflow:scroll;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
