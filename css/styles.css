@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: aqua;
+    
     text-align: center;
     
     
@@ -19,7 +19,7 @@ h1 {
     font-weight: bold;}
 
     #gallery img {
-    width: 100%; 
+    width: 80%; 
     height: auto;
     transition: transform 0.3s ease-in-out;
 }
@@ -27,7 +27,7 @@ h1 {
 #gallery li {
     display: block;
     margin: 15px;
-    border: 3px solid #333;
+    width: 100%;
     overflow:scroll;
     transition: box-shadow 0.3s ease-in-out;
 }
